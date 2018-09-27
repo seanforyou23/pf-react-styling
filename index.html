@@ -23,7 +23,8 @@
           <span class="pficon pficon-close"></span>
         </button>
         <span class="pficon pficon-error-circle-o"></span>
-        <strong>Hey there is a problem!</strong> patternfly-react.css distribution in it's simplest form. <a href="#" class="alert-link">document it here</a>.
+        patternfly-react.css (currently) doesn't load in it's simplest form. Relying on ~ to find assets under node_modules for @import references isn't a dependable way of including a third party lib. <br>
+        <a href="https://github.com/patternfly/patternfly-react/blob/master/packages/patternfly-3/patternfly-react/less/type-ahead-select.less#L1" class="alert-link" target="_blank">here's where the problem lives</a>.
       </div>
     </section>
   </main>
